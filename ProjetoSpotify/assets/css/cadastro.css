@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1db954, #191414);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: #121212;
+    width: 400px;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1db954;
+  }
+  
+  .back-home {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .back-home a {
+    color: #1db954;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+  }
+  
+  .back-home a:hover {
+    color: #1ed760;
+    text-decoration: underline;
+  }
+  
+  .social-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.social-login a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+    padding: 12px 20px;
+    background-color: #1e1e1e;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+}
+
+.social-login a:hover {
+    background-color: #2a2a2a;
+}
+
+.social-login a img {
+    width: 22px;
+    height: 22px;
+}
+
+  
+  .social-button img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .social-button:hover {
+    background-color: #3e3e3e;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form label {
+    font-size: 0.9rem;
+    color: #b3b3b3;
+  }
+  
+  form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: white;
+  }
+  
+  form input::placeholder {
+    color: #aaa;
+  }
+  
+  form button {
+    margin-top: 20px;
+    padding: 14px;
+    background: linear-gradient(to right, #1db954, #1ed760);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(30, 215, 96, 0.4);
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  form button:hover {
+    background: linear-gradient(to right, #1ed760, #1db954);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(30, 215, 96, 0.5);
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+  }
+  
+  .login-link p {
+    color: #ccc;
+  }
+  
+  .login-link a {
+    color: #1db954;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
