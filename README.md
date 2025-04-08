@@ -15,5 +15,5 @@ Este projeto é uma simulação de interface inspirada no Spotify, desenvolvida 
 - CSS3
 - Imagens em PNG com fundo transparente (Google, Facebook, Apple)
 
-## 📁 Estrutura do Projeto
+
 
